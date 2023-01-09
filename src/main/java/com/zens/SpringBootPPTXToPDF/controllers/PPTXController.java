@@ -1,13 +1,11 @@
 package com.zens.SpringBootPPTXToPDF.controllers;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.List;
 
 import javax.imageio.ImageIO;
 
-import org.apache.poi.sl.draw.DrawFactory;
 import org.apache.poi.xslf.usermodel.XMLSlideShow;
 import org.apache.poi.xslf.usermodel.XSLFShape;
 import org.apache.poi.xslf.usermodel.XSLFSlide;
